@@ -1,0 +1,84 @@
+/*关于我们的新闻样式*/
+.aboutus{
+	
+}
+.aboutus .nav{
+	height: 40px;
+	/*background-color: pink;*/
+	margin: 20px 0;
+}
+.aboutus .nav{
+	box-sizing: border-box;
+	border: 2px solid #fedd04;
+	border-radius: 3px;
+}
+.aboutus .nav li{
+	float: left;
+	line-height: 37px;
+	position: relative;
+}
+.aboutus .nav li a{
+	font-size:18px;
+	color:#fff;
+	margin: 0 24px;
+}
+.aboutus .nav li span{
+	font-family: "icomoon";
+}
+/*给每个li追加伪类元素*/
+.aboutus .nav li:after{
+	content: "";
+    display: block;
+    height: 25px;
+    width: 25px;
+    border-right: 2px solid #fedd04;
+    border-bottom: 2px solid #fedd04;
+    position: absolute;
+    right: -8px;
+    top: 5px;
+    transform: rotate(-45deg);
+}
+
+.bg{
+	background-color: rgba(41,41,41,.2);
+	height: 600px;
+}
+/*内部具体新闻内容*/
+.aboutusContent p:nth-of-type(1){
+	color:#fedd04 ;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 70px;
+	padding-left: 16px;
+}
+.aboutusContent p:nth-of-type(2){
+	color:#fedd04 ;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 16px;
+}
+/*具体内容*/
+.contactDet{
+	opacity: 0.8;
+	margin-left: 20px;
+    width: 570px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+.information{
+	background-color: rgba(0,0,0,0.05);
+}
+.information:last-child .info{
+	border: none;
+}
+.information .info{
+	border-bottom:1px dashed #CCCCCC;
+}
+
+.information .info p{
+	line-height: 30px;
+	font-size: 16px;
+	color:rgba(255,255,255,.7);
+}

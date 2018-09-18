@@ -1,0 +1,631 @@
+/*网站首页内容设置*/
+body{
+	width: 1900px;
+	background: url(../img/bg/background-2.jpg)no-repeat;
+	background-size: 1900px 960px;
+	background-attachment: fixed;
+	position: relative;
+}
+/*顶部样式*/
+.top{
+	position: relative;
+	height: 38px;
+	width: 100%;
+
+}
+.top .user
+{	
+	right: 100px;
+	position: absolute;
+}
+.top .user li{
+	float: left;
+	margin: 0 20px;
+	line-height: 38px;
+	
+}
+
+.top .user li span{
+	font-family: "icomoon";
+	margin-right:2px ;
+	font-size: 14px;
+}
+.tel:hover a,.email:hover a{
+	color: yellow;
+}
+
+/*头部*/
+.header{
+	position: relative;
+	/*width: 100%;*/
+	height: 90px;
+	line-height: 90px;
+	/*background-color: pink;*/
+}
+.header img{
+	position: absolute;
+	display: inline-block;
+	height: 90px;
+	width: 640px;
+}
+.search{
+	position: absolute;
+	width: 540px;
+	height: 40px;
+	right: 100px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.search input{
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	width: 500px;
+	height: 40px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 5px;
+}
+.search button
+{
+	box-sizing: border-box;
+	width: 40px;
+	height: 40px;
+	float: right;
+	/*没有和后台进行交互,使用小手进行代替*/
+	cursor: pointer;
+}
+.search button span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	font-family: "icomoon";
+	font-size: 36px;
+	color: yellow;
+}
+/*菜单导航栏部分*/
+.menu{
+	height: 40px;
+	line-height: 40px;
+}
+.menu li{
+	float: left;
+	color: #fff;
+	margin-right: 35px;
+	cursor: pointer;
+}
+.menu li:hover{
+	color:yellow;
+}
+/*鼠标悬浮时候显示的内容*/
+.navcontent{
+	color: #fff;
+	display: none;
+	background-color: pink;
+}
+/*第一个隐藏下拉框*/
+.navcontent0 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+	/*background-color: pink;*/
+	/*如果在css内部就让他隐藏后一定会出现问题*/
+	/*display: none;*/
+}
+.navcontent0 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent0 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent0 ul li:hover a{
+	color: #010101;
+}
+/*第二个框体*/
+.navcontent1 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+	
+}
+.navcontent1 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent1 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent1 ul li:hover a{
+	color: #010101;
+}
+/*第三个框体*/
+.navcontent2 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+}
+.navcontent2 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent2 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent2 ul li:hover a{
+	color: #010101;
+}
+/*第4个框体*/
+.navcontent3 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+}
+.navcontent3 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent3 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent3 ul li:hover a{
+	color: #010101;
+}
+/*第5个框体*/
+.navcontent4 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+}
+.navcontent4 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent4 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent4 ul li:hover a{
+	color: #010101;
+}
+/*第6个框体*/
+.navcontent5 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+}
+.navcontent5 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent5 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent5 ul li:hover a{
+	color: #010101;
+}
+/*第7个框体*/
+.navcontent6 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+	
+}
+.navcontent6 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent6 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent6 ul li:hover a{
+	color: #010101;
+}
+/*第8个框体*/
+.navcontent7 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+}
+.navcontent7 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent7 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent7 ul li:hover a{
+	color: #010101;
+}
+/*第9个框体*/
+.navcontent8 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+
+}
+.navcontent8 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent8 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent8 ul li:hover a{
+	color: #010101;
+}
+
+/*第10个框体*/
+.navcontent9 ul{
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+	position: relative;
+
+}
+.navcontent9 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent9 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent9 ul li:hover a{
+	color: #010101;
+}
+
+/*第11个框体*/
+.navcontent10 ul{
+	position: relative;
+	margin-top: 20px;
+	width: 286px;
+	float: left;
+	z-index: 1;
+}
+.navcontent10 ul li{
+	line-height: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.navcontent10 ul li:hover{
+	background-color:#D8DC00;
+	opacity: 0.8;
+	font-weight: 300px;
+}
+.navcontent10 ul li:hover a{
+	color: #010101;
+}
+.show{
+	position: absolute;
+	z-index: 1;
+	padding-left:25px;
+}
+/*banner轮播图部分*/
+.banner{
+	box-sizing: border-box;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	width: 1850px;
+	height: 616px;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	margin-top: 20px;
+}
+.banner .img{
+	width: 9250px;
+	height: 616px;
+	/*必须让后面的框体长的那个进行托标,不然无法进行浮动*/
+	position: absolute;
+	/*为了更加精确所以使用left0 top0进行定位*/
+	left: 0;
+	top:0;
+}
+.banner .img li{
+	float: left;
+}
+.banner .img img{
+	display: inline-block;
+	width: 1850px;
+	height: 616px;
+}
+.banner .num {
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+.banner .num li{
+	display: inline-block;
+	width: 15px;
+	height:15px;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.4;
+	margin:0 3px;
+}
+.banner .num li.on{
+	background-color: darkorange;
+}
+/*按钮部分*/
+.btn{
+	/*background-color: orange;*/
+	width: 40px;
+	height: 50px;
+	color: #000;
+	opacity: 0.3;
+	font-size: 60px;
+	font-family: arial;
+	font-weight: 600;
+	line-height:50px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	margin-top:-20px;
+	cursor: pointer;
+}
+.btn-l{
+	left: -100px;
+}
+.btn-r{
+	right:-100px;
+}
+.banner:hover .btn-l{
+	left: 0px;
+	transition: 0.5s;
+} 
+.banner:hover .btn-r{
+	right: 0px;
+	transition: 0.5s;
+} 
+/*精品推荐部分*/
+/*文字*/
+.goods .perfect a{
+	display: inline-block;
+	height: 80px;
+	font-size: 28px;
+	font-weight: 600;
+	color: #ffdd00;
+	line-height: 80px;
+}
+
+/*内容展示*/
+.goods-recomand{
+	height: 338px;
+	position: relative;
+}
+.goods-recomand li img{
+	display: inline-block;
+	width: 439px;
+	height: 338px;
+	
+	
+}
+.goods-recomand li:hover{
+	border: 2px solid  #ffdd00;
+	opacity: 0.8;
+}
+.goods-recomand li:nth-of-type(4){
+	margin-right: 0px;
+}
+.goods-recomand li{
+	width: 436px;
+	height: 338px;
+	float: left;
+	/*background-color: orange;*/
+	margin-right: 35px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border: 2px solid #fff;
+	
+}
+/*具体产品细节*/
+.goods-details{
+    box-sizing: border-box;
+    position: absolute;
+    height: 136px;
+    width: 431px;
+    background-color: #a3a3a3;
+    opacity: 0.8;
+    bottom: 2px;
+    padding-left: 20px;
+}
+.goods-details a{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 60px;
+	
+}
+.goods-details a:hover{
+	color: #000000;
+}
+.goods-details p{
+	font-size: 12px;
+	
+}
+/*新闻部分*/
+.news a{
+	display: inline-block;
+	height: 80px;
+	font-size: 28px;
+	font-weight: 600;
+	color: #ffdd00;
+	line-height: 80px;
+}
+
+/*具体内容部分*/
+.newsContent{
+	/*height: 134px;*/
+}
+.newsContent li{
+	height: 134px;
+	width: 464px;
+	float: left;
+	background-color: #b3b3b3;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	margin-right: -2px;
+	opacity: 0.8;
+}
+.newsContent li:first-child{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.newsContent li:last-child{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.newsContent li a{
+	display: inline-block;
+	height: 80px;
+	font-size: 30px;
+	font-weight: 600;
+	color: rgba(255,255,255,0.9);
+	line-height: 80px;
+	box-sizing: border-box;
+	margin-left: 20px;
+	
+}
+.newsContent li a:hover{
+		color: #ffdd00;
+}
+.newsContent li p{
+	margin-left: 20px;
+	font-size: 14px;
+}
+/*轮播图产品展示部分*/
+.display p{
+	font-size: 28px;
+	font-weight: 600;
+	color: #ffdd00;
+	line-height: 90px;
+}
+/*产品轮播部分*/
+.product{
+	position: relative;
+	overflow: hidden;
+	height: 180px;
+	width: 1850px;
+}
+.tires{
+	width:200% ;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	/*添加轮播动画事件*/
+	animation: moving 10s linear infinite;
+}
+@keyframes moving{
+	from{transform: translate3d(0,0,0);}
+	to{transform: translate3d(-1850px,0,0);}
+}
+.tires li{
+	float:left
+}
+.tires li img{
+	display: inline-block;
+	width: 231px;
+	height: 180px;
+}
+.product:hover .tires{
+	animation-play-state: paused;
+}
+/*左右按钮*/
+.product:hover .btn-l{
+	left: 0px;
+	transition: 0.5s;
+} 
+.product:hover .btn-r{
+	right: 0px;
+	transition: 0.5s;
+} 
+
+
+/*footer部分*/
+.footer{
+	margin-top: 60px;
+	position: relative;
+	z-index: 0;
+	height: 160px;
+	background: url(../img/bg/footer0.jpg)no-repeat;
+	
+}
+.footer ul{
+	height: 80px;
+	line-height: 79px;
+	box-sizing: border-box;
+
+}
+.footer ul li{
+	float: left;
+	margin: 0 30px;
+}
+.footer p{
+	font-size: 12px;
+	margin-left:30px;
+	color: #fff;
+	line-height: 80px;
+}
