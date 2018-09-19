@@ -1,3 +1,0 @@
-git@gitee.com:WeiDaDeXiongJun/gitee.git
-
-git@github.com:1246306983/github.git
